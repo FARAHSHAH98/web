@@ -1,0 +1,139 @@
+body {margin: 0;
+    background-image: url(mountains-morning-snow-rock-mountain-landscape.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+
+
+}
+.img{margin-left: 33px;
+    margin-top: 8px;
+
+}
+    
+ul.topnav {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #33333300;
+
+}
+
+/* ul.topnav li {float: left;} */
+
+ul.topnav li a {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-right: 15px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #0e0d0dad;}
+
+ul.topnav li a.active {background-color: #4b4d4c;}
+
+ul.topnav li{float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+/* header end */
+.text{
+        position: absolute;
+        top: 40%; 
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        width: 80%; 
+        text-align: center;
+        color: white;
+        font-size: 40px; 
+        line-height: 1.2; 
+    }
+.msg{
+    position: absolute;
+        top: 60%; 
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        width: 80%; 
+        text-align: center;
+        
+        color: white;
+        font-size: 20px; 
+        font-weight:100;
+        
+
+}
+.btn{
+    position: absolute;
+    top: 80%; 
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    text-align: center;
+    color: white;
+    font-size: 20px; 
+    font-weight:100;
+
+}
+.buttonb {
+    background-color: #e8f5f0da; 
+    border: none;
+    color: rgb(22, 21, 21);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 33pc;
+  }
+  .buttona {
+    background-color: #04aa6d00; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 33pc;
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    
+    /* Adjust positions for smaller screens */
+    .text {
+        margin-top: 120px;
+        top: 30%;
+        font-size: 30px;
+    }
+
+    .msg {
+        margin-top: 80px;
+        top: 50%;
+        font-size: 16px;
+    }
+
+    .btn {
+        margin-top: 55px;
+        top: 70%;
+        font-size: 16px;
+    }
+}
+.buttonb:hover{
+    background-color: #333534;
+}
+.buttona:hover{
+    background-color: #343534;
+}
